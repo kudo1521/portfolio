@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* ヘッダー */
+header  {
+    height: 50px;
+}
+/* トップラッパー */
+.top-wrapper {
+    height: 500px;
+    background-color: #0F5474;
+    display: flex;
+    color: #ffffff;
+    width: 100%;
+}
+.top-wrapper h1 {
+    font-size: 50px;
+    margin: auto;
+}
+.Contents-list {
+    margin: auto 50px;
+}
+.Contents-list li {
+    margin: 20px;
+}
+/* 全体 */
+.contents-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+/* タイトル */
+h2 {
+    margin: 50px;
+    font-size: 30px;
+}
+/* テキスト */
+.text {
+    line-height: 1.7;
+}
+.Proficiency-text {
+    float: left;
+}
+/* 自己紹介 */
+.Self-Introduction {
+    width: 100%;
+}
+/* 習熟度 */
+.Details-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.Field-title {
+    font-size: 20px;
+}
+/* 作品紹介 */
