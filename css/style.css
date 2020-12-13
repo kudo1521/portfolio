@@ -1,10 +1,4 @@
 @charset "utf-8";
-
-main {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
 /* ヘッダー */
 header  {
     height: 50px;
@@ -21,18 +15,18 @@ header  {
     font-size: 50px;
     margin: auto;
 }
-.Contents-list {
+.contents-list {
     margin: auto 50px;
 }
-.Contents-list li {
+.contents-list li {
     margin: 20px;
 }
 /* 全体 */
 .contents-wrap {
-    width: 90%;
+    width: 100%;
+    max-width: 1280px;
     margin: 0 auto;
 }
-
 /* タイトル */
 h2 {
     margin: 50px;
@@ -42,19 +36,19 @@ h2 {
 .text {
     line-height: 1.7;
 }
-.Proficiency-text {
+.proficiency-text {
     float: left;
 }
 /* 自己紹介 */
-.Self-Introduction {
+.self-introduction {
     width: 100%;
 }
 /* 習熟度 */
-.Details-wrap {
+.details-wrap {
     display: flex;
     justify-content: space-between;
 }
-.Field-title {
+.field-title {
     font-size: 20px;
 }
 /* 作品紹介 */
