@@ -22,10 +22,14 @@ header  {
     margin: 20px;
 }
 /* 全体 */
-.contents-wrap {
+.inner {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
 }
 /* タイトル */
 h2 {
