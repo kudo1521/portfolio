@@ -74,13 +74,17 @@ h3 {
 .proficiency-field {
     width: 50%;
 }
+.proficiency-field-contents {
+    display: flex;
+}
 .proficiency {
     height: 500px;
 }
-#box {
+.score {
     width: 30px;
     height: 30px;
-    background: black;
+    transform: translateY(100px);
+    transition: all 0.5s;
 }
 /* 作品紹介 */
 .works-wrap {
