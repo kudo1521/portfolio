@@ -121,9 +121,15 @@ h3 {
 /* 作品紹介 */
 .works-wrap {
     display: flex;
+    justify-content: space-between;
 }
 .work-overview {
-    width: 50%;
+}
+.work {
+    width: 100%;
+}
+.work img {
+    width: 400px;
 }
 .URL {
     text-align: center;
