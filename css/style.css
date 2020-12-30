@@ -1,26 +1,4 @@
 @charset "utf-8";
-/* ヘッダー */
-header  {
-    height: 50px;
-}
-/* トップラッパー */
-.top-wrapper {
-    height: 500px;
-    background-color: #1f6f8b;
-    display: flex;
-    color: #e6d5b8;
-    width: 100%;
-}
-.top-wrapper h1 {
-    font-size: 50px;
-    margin: auto;
-}
-.contents-list {
-    margin: auto 50px;
-}
-.contents-list li {
-    margin: 20px;
-}
 /* 全体 */
 main {
     color: #1c2b2d;
@@ -43,6 +21,60 @@ li {
 }
 p {
     line-height: 1.7;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* タイトル */
+h2 {
+    margin: 50px;
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+    line-height: 1.7;
+    text-align: center;
+}
+/* ヘッダー */
+header  {
+    height: 150px;
+    width: 100%;
+}
+header h1 {
+    padding: 70px;
+    font-size: 50px;
+}
+/* トップラッパー */
+.top-contents{
+    display: flex;
+}
+.top-wrapper {
+    height: 500px;
+    background-color: #1f6f8b;
+    display: flex;
+    color: #e6d5b8;
+    width: 60%;
+    margin: 0 0 0 auto;
+}
+.top-wrapper h1 {
+    font-size: 50px;
+    margin: auto;
+}
+.contents-list {
+    margin: auto 50px;
+}
+.contents-list li {
+    margin: 20px;
+}
+/* 謝辞 */
+.thanks {
+    height: 350px;
+}
+.thanks p {
+    line-height: 2;
 }
 /* タイトル */
 h2 {
@@ -99,4 +131,21 @@ h3 {
 /* 将来の方向性 */
 .prospects-field {
     width: 33%;
+}
+/* 趣味 */
+.interests-contents {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+.interests-contents img {
+    width: 300px;
+}
+/* フッター */
+footer {
+    height: 150px;
+    background-color:  #1f6f8b;
+}
+footer h1 {
+    color: #e6d5b8;
 }

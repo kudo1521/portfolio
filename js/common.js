@@ -1,8 +1,3 @@
-// $('.field-title').click(function() {
-//     $('#box').animate({
-//     'marginTop': '200px'
-//     });
-// });
 $(function(){
     $(".score").css({opacity:"0"});
     $(window).scroll(function (){
@@ -10,7 +5,7 @@ $(function(){
             var targetElement = $(this).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            if (scroll > targetElement - windowHeight + 100){
+            if (scroll > targetElement - windowHeight + 200){
                 $(this).css('opacity','1');
                 $(this).css('transform','translateY(0)');
             }
