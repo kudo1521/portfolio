@@ -1,3 +1,4 @@
+$('.thanks p').fadeIn(5000);
 $(function(){
     $(".score").css({opacity:"0"});
     $(window).scroll(function (){
@@ -11,4 +12,7 @@ $(function(){
             }
         });
     });
+});
+$('.accordion').click(function () {
+    $(this).next().slideToggle(300);
 });
