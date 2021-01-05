@@ -1,7 +1,13 @@
 @charset "utf-8";
+html{
+    scroll-behavior: smooth;
+}
 /* 全体 */
 main {
     color: #1c2b2d;
+}
+p,h1,h2,h3,ul,li,dt,dl,a {
+    font-family: "Sawarabi Mincho";
 }
 .inner {
     width: 100%;
@@ -21,7 +27,23 @@ li {
 }
 p {
     line-height: 1.7;
-    font-family: "Sawarabi Mincho";
+}
+dt {
+    font-size: 20px;
+    padding: 20px 0;
+}
+dt:first-child {
+    padding-top: 0;
+}
+dd {
+    padding: 5px 0;
+}
+img {
+    width: 400px;
+}
+.image {
+    text-align: center;
+    margin: auto 0;
 }
 .center {
     display: flex;
@@ -33,18 +55,20 @@ p {
     padding: 0 100px 200px 100px;
     margin-top: 100px;
 }
+.half {
+    width: 50%;
+}
 /* タイトル */
 h2 {
     padding: 100px 0;
-    font-size: 35px;
-    font-family: "Sawarabi Mincho";
+    font-size: 40px;
+    text-align: center;
 }
 h3 {
     font-size: 25px;
     line-height: 1.7;
     margin: 50px 0;
     text-align: center;
-    font-family: "Sawarabi Mincho";
 }
 /* ヘッダー */
 header  {
@@ -54,7 +78,6 @@ header  {
 }
 header h1 {
     font-size: 50px;
-    font-family: "Sawarabi Mincho";
     padding: 50px 100px;
 }
 /* トップラッパー */
@@ -71,7 +94,6 @@ header h1 {
 .top-wrapper h1 {
     font-size: 50px;
     margin: auto;
-    font-family: "Sawarabi Mincho";
 }
 .contents-list {
     margin: auto 100px;
@@ -99,6 +121,12 @@ header h1 {
 .self-introduction {
     width: 100%;
 }
+.half {
+    width: 50%;
+}
+/* .self-introduction-list {
+    float: right;
+} */
 /* 習熟度 */
 .proficiency-section {
     background-color: #1f6f8b;
@@ -107,9 +135,6 @@ header h1 {
 .details-wrap {
     display: flex;
     justify-content: space-between;
-}
-.proficiency-field {
-    width: 50%;
 }
 .proficiency-field p {
     text-align: center;
@@ -132,20 +157,11 @@ header h1 {
     display: flex;
     justify-content: space-between;
 }
-.work {
-    width: 50%;
-}
 .work-overview {
     height: 150px;
 }
 .work-overview p {
     text-align: center;
-}
-.work-img {
-    text-align: center;
-}
-.work img {
-    width: 400px;
 }
 .URL {
     text-align: center;
@@ -172,7 +188,7 @@ header h1 {
     position: relative;
     cursor: pointer;
 }
-  .accordion::after{
+.accordion::after{
     content: '';
     width: 8px;
     height: 8px;
@@ -186,24 +202,27 @@ header h1 {
     top: 50%;
     right: 4%;
     margin-top: -5px; }
-  .accordion-inner {
+    .accordion-inner {
     display: flex;
     justify-content: space-between;
 }
-  .accordion-content {
+.accordion-content {
     display: none;
-    padding: 8px 0 8px 3%;
     width: 100%;
     text-align: left;
     background-color: #1c2b2d;
     border: #e6d5b8 solid 1px;
+}
+.accordion-content p {
     padding: 20px;
 }
-  .heading{
+.heading{
     padding: 0 5%;
     margin-bottom: 10px;
-  }
-  
+}
+.next-accordion-box {
+    width: 100%;
+}
 /* 趣味 */
 .interests-contents {
     display: flex;
@@ -216,10 +235,6 @@ header h1 {
 }
 .interests-image {
     width: 50%;
-    text-align: center;
-}
-.interests-contents img {
-    width: 400px;
 }
 /* フッター */
 footer {
