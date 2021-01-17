@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="css/style.css ">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1f57834a0.js" crossorigin="anonymous"></script>
     <title>ポートフォリオ</title>
 </head>
 <body>
     <header>
-        <h1>工藤の<br>Portfolio</h1>
+        <div class="contents-list">
+            <ul>
+                <li><a href="#Item01">自己紹介</a></li>
+                <li><a href="#Item02">習熟度</a></li>
+                <li><a href="#Item03">作品紹介</a></li>
+                <li><a href="#Item04">前職と将来について</a></li>
+                <li><a href="#Item05">趣味</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <section class="top-contents">
-            <div class="contents-list">
-                <ul>
-                    <li><a href="#Item01">自己紹介</a></li>
-                    <li><a href="#Item02">習熟度</a></li>
-                    <li><a href="#Item03">作品紹介</a></li>
-                    <li><a href="#Item04">前職と将来について</a></li>
-                    <li><a href="#Item05">趣味</a></li>
-                </ul>
-            </div>
+        <!-- <section class="top-contents">
             <div id="nav-drawer">
                 <input id="nav-input" type="checkbox" class="nav-unshown">
                 <label id="nav-open" for="nav-input"><span></span></label>
@@ -40,16 +40,15 @@
                     </nav>
                 </div>
             </div>
-            <section class="top-wrapper">
-                <p class="name">工藤 敦史</p>
-            </section>
+        </section> -->
+        <section class="top-wrapper">
+            <h1>工藤のPortfolio</h1>
+            <p class="name">工藤 敦史</p>
         </section>
         <section class="contents-wrap">
             <section class="thanks center">
-                <p>この度はお忙しい中、面接試験へご対応いただき誠にありがとうございます。<br>
-                私自身について書かせていただきました。<br>
-                最後までご覧いただけたら幸いです。<br>
-                それでは、よろしくお願いします。
+                <p>この度はお忙しい中、工藤のPortfolioをご覧いただき誠にありがとうございます。<br>
+                    それでは、よろしくお願いいたします。
                 </p>
             </section>
             <!-- 自己紹介 -->
@@ -101,18 +100,22 @@
                                 <div class="skill">
                                     <div class="skill-list">
                                         <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>jQuery</li>
-                                            <li>WordPress</li>
-                                        </ul>
-                                    </div>
-                                    <div class="score-image">
-                                        <ul>
-                                            <li><img class="score" src="img/star.png"><img class="score" src="img/star.png"><img class="score" src="img/star.png"></li>
-                                            <li><img class="score" src="img/star.png"><img class="score" src="img/star.png"></li>
-                                            <li><img class="score" src="img/star.png"><img class="score" src="img/star.png"></li>
-                                            <li><img class="score" src="img/star.png"></li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">HTML</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">CSS</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">jQuery</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">WordPress</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -127,14 +130,22 @@
                                 <div class="skill">
                                     <div class="skill-list">
                                         <ul>
-                                            <li>Premiere Pro</li>
-                                            <li>After Effects</li>
-                                        </ul>
-                                    </div>
-                                    <div class="score-image">
-                                        <ul>
-                                            <li><img class="score" src="img/star.png"><img class="score" src="img/star.png"></li>
-                                            <li><img class="score" src="img/star.png"><img class="score" src="img/star.png"></li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">HTML</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">CSS</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">jQuery</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
+                                            <li class="skill-item">
+                                                <div class="slill-title">WordPress</div>
+                                                <div class="score-image"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

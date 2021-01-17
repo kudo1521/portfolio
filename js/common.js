@@ -1,8 +1,8 @@
 $('.thanks p').fadeIn(7000);
 $(function(){
-    $(".score").css({opacity:"0"});
+    $(".score-image").css({opacity:"0"});
     $(window).scroll(function (){
-        $('.score').each(function(){
+        $('.score-image').each(function(){
             var targetElement = $(this).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
