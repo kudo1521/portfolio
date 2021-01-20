@@ -139,7 +139,7 @@ header  {
 }
 /* 謝辞 */
 .thanks {
-    padding: 100px 0 200px 0;
+    padding: 150px 0 200px 0;
     background-color: #111111;
 }
 .thanks p {
@@ -251,9 +251,29 @@ header  {
     border: 0px;
     border-top: solid 1px #e6d5b8;
     border-right: solid 1px #e6d5b8;
+    -ms-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     margin-left: -6px;
     transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    margin-top: -5px; }
+    .accordion-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.opened {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 0px;
+    border-top: solid 1px #e6d5b8;
+    border-right: solid 1px #e6d5b8;
+    -ms-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    margin-left: -6px;
+    transform: rotate(200deg);
     position: absolute;
     top: 50%;
     right: 4%;
@@ -303,6 +323,24 @@ header  {
     color: #F4F4F4;
     z-index: -1;
 }
+.logo-top {
+    top: 150px;
+    right: 1000px;
+}
+.logo-bottom {
+    bottom: 150px;
+    left: 900px;
+}
+.yosakoi-icon {
+    color: #111111;
+}
+.interests p {
+    text-align: center;
+    padding: 50px 0;
+}
+.interests h3 {
+    padding-top: 50px;
+}
 /* タブ切り替え */
 .tab-area {
     display: flex;
@@ -320,9 +358,7 @@ header  {
     font-size: 35px;
 }
 .tab.active {
-    background-color: #ccc;
-    color: #222e3e;
-    border: none; 
+    color: #ccc;
 }
 .content-area {
     font-size: 30px;
