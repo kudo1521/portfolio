@@ -74,13 +74,3 @@ $(function() {
       $(".content").removeClass("show").eq(index).addClass("show"); // showクラスを消して、contentクラスのindex番目にshowクラスを追加
     })
 })
-
-// $(function(){
-//     $("column").click(function(){
-//         if($(this).children().hasClass('accordion::after')){
-//             $(this).children().removeClass('opened')
-//         }else{
-//             $(this).children().addClass('accordion::after')
-//         };
-//      });
-// });
