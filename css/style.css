@@ -16,7 +16,7 @@ p,h1,h2,h3,ul,li,dt,dl,a {
     display: flex;
     justify-content: space-between;
 }
-a {
+.contents-list a {
     color: #f1f8ff;
 }
 li {
@@ -58,6 +58,12 @@ img {
 .ef {
     transform: translateY(100px);
     transition: all 0.5s;
+}
+.title-logo {
+    padding-left: 15px;
+}
+.sp-menu {
+    display: none;
 }
 /* タイトル */
 h2 {
@@ -211,8 +217,11 @@ header  {
     transform: translateY(100px);
     transition: all 0.5s;
 }
-.fas {
+.fa-star {
     color: #ffd900;
+}
+.far {
+    color: #e6d5b8;
 }
 /* 作品紹介 */
 .works-wrap {
@@ -225,6 +234,10 @@ header  {
 .work-overview p {
     max-width: 400px;
     margin: 0 auto;
+}
+.work :hover {
+    transition: all 0.2s;
+    transform: scale(1.1, 1.1);
 }
 .URL {
     text-align: center;
@@ -402,6 +415,9 @@ footer h1 {
 
 @media (max-width: 834px){
     /* 全体 */
+    .pc-menu {
+        display: none;
+    }
     p {
         font-size: 16px;
     }
@@ -491,4 +507,33 @@ footer h1 {
         color: #111111;
         padding-bottom: 3px;
     }
+    .sp-menu {
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 30px 0;
+      }
+      /* .sp-menu p._a {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 30px 0 0;
+      } */
+      /* .sp-menu p._a .link {
+        display: inline-block;
+        color: #607D8B;
+        padding-left: 1.3em;
+        text-indent: -1.3em;
+      } */
+      /* .sp-menu p._a .link:before {
+        content: '';
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-top: 2px solid #607D8B;
+        border-right: 2px solid #607D8B;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-right: 10px;
+      } */
+      
 }
