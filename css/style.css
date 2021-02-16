@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* 全体 */
 main {
-    color: #111111;
+    color: #333333;
 }
 p,h1,h2,h3,ul,li,dt,dl,a {
     font-family: "Sawarabi Gothic";
@@ -11,6 +11,9 @@ p,h1,h2,h3,ul,li,dt,dl,a {
     max-width: 1280px;
     margin: 0 auto;
     padding-bottom: 300px;
+}
+.details img {
+    width: 300px;
 }
 .details {
     display: flex;
@@ -81,7 +84,7 @@ h3 {
 /* ヘッダー */
 header  {
     width: 100%;
-    background-color: #111111;
+    background-color: #333333;
     position: fixed;
     z-index: 1;
 }
@@ -122,7 +125,7 @@ header  {
 
 /* トップラッパー */
 .top-wrapper {
-    background-color: #111111;
+    background-color: #333333;
 }
 .top-wrapper h1 {
     font-size: 70px;
@@ -149,7 +152,7 @@ header  {
 /* 謝辞 */
 .thanks {
     padding: 150px 0 200px 0;
-    background-color: #111111;
+    background-color: #333333;
 }
 .thanks p {
     line-height: 2;
@@ -164,9 +167,9 @@ header  {
     padding-top: 20px;
 }
 .self-introduction-list dt{
-    color: #1f6f8b;
+    color: #333333;
     border-left: solid 6px #1f6f8b;/*左側の線*/
-    background: #f1f8ff;/*背景色*/
+    background: #e1f4f3;/*背景色*/
     margin-bottom: 3px;/*下のバーとの余白*/
     line-height: 1.5;
     padding: 0.5em;
@@ -176,8 +179,8 @@ header  {
 }
 /* 習熟度 */
 .proficiency-section {
-    background-color: #1f6f8b;
-    color: #e6d5b8;
+    background-color: #e1f4f3;
+    color: #333333;
 }
 .skill-list {
     line-height: 1.7;
@@ -218,7 +221,7 @@ header  {
     transition: all 0.5s;
 }
 .fa-star {
-    color: #ffd900;
+    color: #FAC61E;
 }
 .far {
     color: #e6d5b8;
@@ -235,6 +238,9 @@ header  {
     max-width: 400px;
     margin: 0 auto;
 }
+.work img {
+    border: solid 1px #111111;
+}
 .work :hover {
     transition: all 0.2s;
     transform: scale(1.1, 1.1);
@@ -244,8 +250,8 @@ header  {
 }
 /* 将来の方向性 */
 .prospects-section {
-    background-color: #1c2b2d;
-    color: #e6d5b8;
+    background-color: #e1f4f3;
+    color: #333333;
 }
 /* アコーディオン */
 .column {
@@ -258,10 +264,10 @@ header  {
     width: 30%;
 }
 .accordion{
-    border: 1px solid #1c2b2d;
+    border: 1px solid #333333;
     width: 100%;
-    background-color: #e6d5b8;
-    color: #1c2b2d;
+    background-color: #ffffff;
+    color: #333333;
     position: relative;
     cursor: pointer;
     padding: 5px 0;
@@ -271,8 +277,8 @@ header  {
     width: 8px;
     height: 8px;
     border: 0px;
-    border-top: solid 1px #1c2b2d;
-    border-right: solid 1px #1c2b2d;
+    border-top: solid 1px #333333;
+    border-right: solid 1px #333333;
     -ms-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     margin-left: -6px;
@@ -308,9 +314,9 @@ header  {
     display: none;
     width: 100%;
     text-align: left;
-    background-color:  #e6d5b8;
-    border: #1c2b2d solid 1px;
-    color: #1c2b2d;
+    background-color:  #ffffff;
+    border: #333333 solid 1px;
+    color: #333333;
 }
 .accordion-content p {
     padding: 20px;
@@ -407,7 +413,7 @@ header  {
 /* フッター */
 footer {
     height: 50px;
-    background-color:  #1c2b2d;
+    background-color:  #333333;
 }
 footer h1 {
     color: #e6d5b8;
